@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/ASUS/Downloads/PRJ/assignment/web/index.html</file>
+            <file>file:/C:/Users/ASUS/Downloads/PRJ/assignment/web/comment.jsp</file>
+            <file>file:/C:/Users/ASUS/Downloads/PRJ/assignment/web/category.jsp</file>
+            <file>file:/C:/Users/ASUS/Downloads/PRJ/assignment/web/edit.jsp</file>
+            <file>file:/C:/Users/ASUS/Downloads/PRJ/assignment/src/java/model/CategoryDTO.java</file>
+            <file>file:/C:/Users/ASUS/Downloads/PRJ/assignment/web/login.jsp</file>
+            <file>file:/C:/Users/ASUS/Downloads/PRJ/assignment/src/java/utils/PasswordUtils.java</file>
+            <file>file:/C:/Users/ASUS/Downloads/PRJ/assignment/web/assets/css/edit.css</file>
+            <file>file:/C:/Users/ASUS/Downloads/PRJ/assignment/src/java/model/UserDTO.java</file>
+            <file>file:/C:/Users/ASUS/Downloads/PRJ/assignment/web/game_detail.jsp</file>
+            <file>file:/C:/Users/ASUS/Downloads/PRJ/assignment/web/assets/css/addgame.css</file>
+            <file>file:/C:/Users/ASUS/Downloads/PRJ/assignment/src/java/model/UserDAO.java</file>
+            <file>file:/C:/Users/ASUS/Downloads/PRJ/assignment/src/java/controller/MainController.java</file>
+            <file>file:/C:/Users/ASUS/Downloads/PRJ/assignment/src/java/model/GameDAO.java</file>
+            <file>file:/C:/Users/ASUS/Downloads/PRJ/assignment/src/java/controller/GameController.java</file>
+            <file>file:/C:/Users/ASUS/Downloads/PRJ/assignment/src/java/model/CommentDTO.java</file>
+            <file>file:/C:/Users/ASUS/Downloads/PRJ/assignment/web/home.jsp</file>
+            <file>file:/C:/Users/ASUS/Downloads/PRJ/assignment/src/java/utils/DbUtils.java</file>
+            <file>file:/C:/Users/ASUS/Downloads/PRJ/assignment/web/addgame.jsp</file>
+            <file>file:/C:/Users/ASUS/Downloads/PRJ/assignment/src/java/controller/UserController.java</file>
+            <file>file:/C:/Users/ASUS/Downloads/PRJ/assignment/src/java/model/CommentDAO.java</file>
+            <file>file:/C:/Users/ASUS/Downloads/PRJ/assignment/src/java/model/CategoryDAO.java</file>
+        </group>
+    </open-files>
+</project-private>

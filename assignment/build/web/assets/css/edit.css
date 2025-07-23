@@ -1,0 +1,144 @@
+/*
+ * Document   : edit.css
+ * Created on : July 23, 2025, 8:20:00 AM +07
+ * Author     : Gemini AI
+ * Description: Styles for the edit and delete game pages.
+ */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2em;
+}
+
+/* Styling for the Update Game form */
+form:first-of-type {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px; /* Space between update and delete forms */
+}
+
+/* Styling for the Delete Game form */
+form:last-of-type {
+    background-color: #fff; /* Match background for consistency */
+    padding: 20px 30px; /* Smaller padding for just a button */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 500px; /* Match width of the update form */
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center; /* Center the delete button if it's the only content */
+}
+
+/* Common styling for labels within the update form */
+form:first-of-type label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: bold;
+    margin-top: 15px; /* Add space above labels */
+}
+
+form:first-of-type label:first-of-type {
+    margin-top: 0; /* No top margin for the very first label */
+}
+
+input[type="text"],
+textarea,
+select {
+    width: calc(100% - 20px); /* Adjust for padding */
+    padding: 10px;
+    margin-bottom: 15px; /* Space after each input field */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing */
+    min-height: 80px; /* Minimum height for textarea */
+}
+
+select {
+    height: 40px; /* Consistent height for select box */
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* Style for the "Cập nhật" (Update) button */
+form:first-of-type input[type="submit"] {
+    background-color: #007bff; /* Blue for update/edit action */
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1em;
+    width: 100%;
+    margin-top: 20px; /* Space above the submit button */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form:first-of-type input[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Style for the "DeleteGame" button */
+form:last-of-type input[type="submit"] {
+    background-color: #dc3545; /* Red for delete action */
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1em;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form:last-of-type input[type="submit"]:hover {
+    background-color: #c82333;
+    transform: translateY(-2px);
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    form:first-of-type,
+    form:last-of-type {
+        padding: 20px;
+        margin: 0 15px 20px; /* Adjust margin for smaller screens */
+    }
+
+    input[type="text"],
+    textarea,
+    select {
+        width: calc(100% - 20px);
+    }
+
+    input[type="submit"] {
+        padding: 10px 20px;
+        font-size: 1em;
+    }
+}

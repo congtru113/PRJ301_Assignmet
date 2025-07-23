@@ -1,0 +1,124 @@
+/*
+ * Document   : game-detail.css
+ * Created on : July 22, 2025, 10:15:00 AM +07
+ * Author     : Gemini AI
+ * Description: Styles for the game detail page.
+ */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 40px 20px; /* More padding top/bottom */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Max width for content */
+    width: 100%;
+    text-align: center; /* Center content within the container */
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #007bff;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 2.2em;
+}
+
+img {
+    max-width: 100%; /* Ensure image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+}
+
+p {
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+    text-align: left; /* Align description text to the left */
+    max-width: 600px; /* Constrain description width for readability */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    display: inline-block; /* Allows padding and margin */
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+/* Style for the "Download Game" button */
+a[href*="fileURL"] {
+    background-color: #28a745; /* Green for download */
+    color: white;
+    border: 1px solid #28a745;
+}
+
+a[href*="fileURL"]:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+/* Style for the "Back to List" button */
+a[href*="viewAll"] {
+    background-color: #6c757d; /* Grey for back button */
+    color: white;
+    border: 1px solid #6c757d;
+}
+
+a[href*="viewAll"]:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        margin: 0 15px; /* Add margin on smaller screens */
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    a {
+        padding: 10px 20px;
+        margin: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 20px 10px;
+    }
+    a {
+        display: block; /* Stack buttons vertically on very small screens */
+        width: calc(100% - 20px); /* Full width for buttons */
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
+}

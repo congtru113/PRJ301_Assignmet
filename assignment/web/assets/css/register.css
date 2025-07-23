@@ -1,0 +1,94 @@
+/*
+ * Document   : register.css
+ * Created on : July 22, 2025, 10:05:00 AM +07
+ * Author     : Gemini AI
+ * Description: Styles for the user registration page.
+ */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px; /* Add some padding around the content */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Slightly wider than login for more fields if needed */
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: calc(100% - 20px); /* Adjust width for padding */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #28a745; /* Green color, consistent with the register button on login page */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Styles for error and success messages */
+p[style="color: red"] { /* Targets the error message */
+    color: #dc3545; /* Bootstrap's default danger color */
+    margin-top: 15px;
+    text-align: center;
+    font-size: 0.95em;
+    font-weight: bold;
+}
+
+p[style="color: green"] { /* Targets the success message */
+    color: #28a745; /* Bootstrap's default success color */
+    margin-top: 15px;
+    text-align: center;
+    font-size: 0.95em;
+    font-weight: bold;
+}
+
+/* Basic responsiveness */
+@media (max-width: 600px) {
+    form {
+        padding: 20px;
+        margin: 0 15px; /* Add some margin on smaller screens */
+    }
+}
